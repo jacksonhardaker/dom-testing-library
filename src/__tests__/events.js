@@ -62,6 +62,11 @@ const eventTypes = [
     elementType: 'input',
   },
   {
+    type: 'Toggle',
+    events: ['toggle'],
+    elementType: 'details',
+  },
+  {
     type: 'Touch',
     events: ['touchCancel', 'touchEnd', 'touchMove', 'touchStart'],
     elementType: 'button',
