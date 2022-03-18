@@ -154,6 +154,11 @@ export const eventMap = {
     EventType: 'Event',
     defaultInit: {bubbles: true, cancelable: false},
   },
+  // Toggle Events
+  toggle: {
+    EventType: 'Event',
+    defaultInit: {bubbles: false, cancelable: false},
+  },
   // Touch Events
   touchCancel: {
     EventType: 'TouchEvent',
